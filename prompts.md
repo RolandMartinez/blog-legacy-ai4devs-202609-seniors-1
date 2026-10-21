@@ -161,3 +161,15 @@ si apruebo
 ```
 
 **Qué salió:** respuesta a la pregunta de si aprobaba el contenido final y si quería commit y push. El agente lo interpretó como aprobación de ambos: hizo commit de `docs/auditoria/comentarios.md` y `prompts.md` con el mensaje de la guía del curso y push de `auditoria-rm`. No abrió el PR.
+
+## Prompt 9
+
+**Modelo:** Sonnet 5.5
+**Herramienta:** Claude Code
+**Hora:** 2026-10-20 23:11:42
+
+```
+pasemos al PR contra s6/start
+```
+
+**Qué salió:** el agente abrió el PR 9 en `LIDR-academy-temp/blog-legacy-ai4devs-202609-seniors-1` (base `s6/start`, cabecera `RolandMartinez:auditoria-rm`) con el commit `8d967f0`. Después añadió este registro en un segundo commit.
